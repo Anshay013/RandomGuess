@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+h1 { 
+  font-family: 'Qahiri', sans-serif;
+    color: #ff0000;
+    text-decoration: underline;
+    text-decoration-color: #fd0000;
+    font-style: normal;
+    font-size: 120px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  button.triggerb {
+    background-color:#c0e9e3 !important;
+    border-color:rgb(0, 0, 0) !important;
+    color : black;
+    padding: 15px 30px;
+    font-size: 20px;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .badge-danger {
+    background-color: #831414 !important;
   }
-}
+  
+  .wrapper {
+    height:100vh;
+    display: grid;
+    background-color: #e9bebe;
+  }
+  .center-wrapper {
+    align-self: center;
+    justify-self: center;
+    font-family: 'Qahiri', sans-serif;
+  }
+  
+  .players_wrapper {
+    height: 200px;
+    overflow-y: scroll;
+  }
+  
+  .Toastify{
+    position:fixed;
+  }
+  
+  .badge{
+    cursor: pointer;
+  }
+  
+  .action_button { /* get new looser,startover,next */
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: #00ff40;
+    color: rgba(0, 0, 0, 0.699);
+    padding: 20px 40px;
+    font-size: 35px;
+    font-family: 'Qahiri', sans-serif;
+    border: 3px solid #000000;
+    cursor: pointer;
+  }
+  
+  .action_button.btn_2 {
+    right: 230px;
+  }
+  
+  
+  .result_wrapper {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .result_wrapper h3 {
+    color: #010102;
+    font-size: 40px ;
+  }
+  .result_wrapper div {
+    font-size: 40px;
+    color: #585858;
+  }
