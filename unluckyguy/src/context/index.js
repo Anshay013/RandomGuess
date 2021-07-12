@@ -39,7 +39,7 @@ class MyProvider extends Component {
            },()=>{
                setTimeout(()=>{
                     this.generateLoosers()
-               },1000)  // result displays after 2 sec.
+               },1000)  // result displays after 1 sec.
            })
         }
     }
