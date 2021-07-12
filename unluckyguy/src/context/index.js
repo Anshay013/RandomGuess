@@ -12,8 +12,8 @@ class MyProvider extends Component {
 
     addLoosers = (name) => {
         this.setState((prevState)=>({
-            loosers:[ ...prevState.loosers,name] // if we don't pass revstate i.e all the previous loosers added we will erase them while
-                                       // we update add a new looser and array will contain only one looser.
+            loosers:[ ...prevState.loosers,name] 
+            
         }))                  
     }
 
